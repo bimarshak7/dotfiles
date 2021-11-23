@@ -1,12 +1,12 @@
 configuration {
-    font:                           "Terminus 9";
+    font:                           "Cantarell 11";
     show-icons:                     true;
     icon-theme:                     "Papirus";
-    display-drun:                   "";
+    display-drun:                   "";
     drun-display-format:            "{name}";
     disable-history:                false;
     fullscreen:                     false;
-    hide-scrollbar:                 true;
+    hide-scrollbar:                 false;
     sidebar-mode:                   false;
 }
 
@@ -19,7 +19,7 @@ window {
     border:                         0px;
     border-color:                   @ac;
     border-radius:                  12px;
-    width:                          500px;
+    width:                          407px;
     location:                       center;
     x-offset:                       0;
     y-offset:                       0;
@@ -30,7 +30,7 @@ prompt {
     padding:                        0px;
     background-color:               @al;
     text-color:                     @ac;
-    font:                           "feather 16";
+    font:                           "feather 10";
 }
 
 entry {
@@ -41,7 +41,6 @@ entry {
     horizontal-align:               0;
     placeholder:                    "Search...";
     padding:                        0px 0px 0px 8px;
-    font:                           "Inconsolata 12";
     blink:                          true;
 }
 
@@ -96,14 +95,14 @@ element-text {
     horizontal-align:               0;
     vertical-align:                 0.5;
     margin:                         0px 2.5px 0px 2.5px;
-    font:                           "Liberation Bold 12";
 }
 
 element selected {
+
     background-color:               @se;
     text-color:                     @fg;
-    border:                         0px 0px 0px 5px;
-    border-radius:                  0px;
+    border:                         0px 0px 0px 4px;
+    border-radius:                  3px;
     border-color:                   @ac;
 }
 element-text, element-icon {
