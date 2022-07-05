@@ -2,7 +2,7 @@
 
 # Add this script to your wm startup file.
 
-DIR="$HOME/.config/polybar/"
+DIR="/home/lordarch/.config/polybar/"
 
 # Terminate already running bar instances
 killall -q polybar
@@ -12,3 +12,4 @@ while pgrep -u $UID -x polybar >/dev/null; do sleep 1; done
 
 # Launch the bar
 polybar -q top -c "$DIR"/config.ini &
+polybar -q sec -c "$DIR"/config.ini &

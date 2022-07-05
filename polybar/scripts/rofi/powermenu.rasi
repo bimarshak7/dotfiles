@@ -14,8 +14,6 @@ configuration {
     display-drun: 					"";
     drun-display-format:            "{name}";
     disable-history:                false;
-    fullscreen:                     false;
-	hide-scrollbar: 				true;
 	sidebar-mode: 					false;
 }
 
